@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品列表页</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/particulars.css"/>
+		<script type="text/javascript" src = "js/jquery-1.11.1.js"></script>
+		<script type="text/javascript" src="js/indent.js"></script>
+		<script type="text/javascript" src="js/carousel.js"></script>
+		<script type="text/javascript" src="js/scrollTop.js"></script>
+		<script type="text/javascript" src="js/perfect_startMove.js"></script>
+		<script type="text/javascript" src = "js/animate_buffer.js"></script>
+		<script type="text/javascript">
+		</script>
+		<style type="text/css">
+		</style>
+	</head>
+	<body>
+		<header>
+			<div id="register">
+				<div class="register-l l">
+					<a href="index.html">
+						<img src="image/house.png"/>
+						蘑菇街首页
+					</a>
+				</div>
+				<div class="register-r r">
+					<span>
+						<a href="register.html">注册</a>
+						<a href="debark.html">登录</a>
+					</span>
+					<span class="erect">|</span>
+					<span>
+						<i class="integrate i1"></i>
+						<a href="#">我的订单</a>
+					</span>
+					<span class="erect">|</span>
+					<span>
+						<i class="integrate i2"></i>
+						<a href="shoppingCart.html" id="indent">我的购物车</a>
+						<div id="trolley">
+							购物车里没有商品
+						</div>
+					</span>
+					<span class="erect">|</span>
+					<span>
+						<a href="#" id="serve">客户服务</a>
+						<i class="integrate i3"></i>
+						<div id="serve1">
+							消费者服务<br />
+							商家服务<br />
+							规则中心<br />
+						</div>
+					</span>
+					<span class="erect">|</span>
+					<span>
+						<i class="integrate i4"></i>
+						<a href="#" id="my">我的小店</a>
+						<i class="integrate i3"></i>
+						<div id="manage">
+							管理后台<br />
+							商家社区<br />
+							商家培训<br />
+							市场入驻<abbr />
+						</div>
+					</span>
+				</div>
+			</div>
+			<div id="log" class="margin">
+				<div class="log-l l">
+					<img src="image/logo1.png"/>
+				</div>
+				<div class="log-c l">
+					<input id="sousuo" type="search"  placeholder="套装韩版新款..." value />
+					<input type="button" value="搜全站" class="search"/>
+					<input type="button" value="搜本店" class="search"/>
+				</div>
+			</div>
+			<div id="log1">
+				<img src="image/logo2.png"/>
+			</div>
+		</header>
+		<!--------------------------------------------------------------------------------------header结束------->
+		<nav>
+			<ul>
+				<li><a href="#">首页</a></li>
+				<li>
+					<a href="#" class="hoo">全部商品<img src="image/xiajian.png" /></a>
+					<div class="ho">
+						>2017新款<br />
+						>衬衫雪纺<br />
+						>连衣裙<br />
+						>2017新款<br />
+						>衬衫雪纺<br />
+						>连衣裙<br />
+						>2017新款<br />
+						>衬衫雪纺<br />
+						>连衣裙<br />
+						>2017新款<br />
+						>衬衫雪纺<br />
+						>连衣裙<br />
+					</div>
+				</li>
+				<li><a href="#">2017新款</a></li>
+				<li><a href="#">春秋款</a></li>
+				<li><a href="#">夏款</a></li>
+				<li><a href="#">短袖</a></li>
+				<li><a href="#">裙子</a></li>
+				<li><a href="#">宽松裤子</a></li>
+			</ul>
+		</nav>
+		<section id="main" class="margin">
+			<div class="main-details">
+				<div class="del l">
+					<div class="play1" id="play1">
+					<ul>
+						<li><a><img src="img/t1.jpg" alt="广告一" /></a></li>
+						<li><a><img src="img/t2.jpg" alt="广告二" /></a></li>
+						<li><a><img src="img/t3.jpg" alt="广告三" /></a></li>
+					</ul>
+				    <ol>
+				    	<li class="active"><img src="img/t1.jpg" alt="广告一" /></li>
+				        <li><img src="img/t2.jpg" alt="广告一" /></li>
+				        <li><img src="img/t3.jpg" alt="广告一" /></li>
+					</ol>
+					</div>
+				</div>
+				<div class="dec l">
+					<h3>韩国复古宽松显瘦原宿连衣裙雪纺公主裙</h3>
+					<div class="cost">
+						<div class="cost-l l">
+							价格：&nbsp;&nbsp;<span>￥98.8</span><br />
+							促销价：&nbsp;<i>￥65</i><br />
+							店铺优惠：<b>满2件立减5元</b><br />
+						</div>
+						<div class="cost-r r">
+							评价:<s>395</s>&nbsp;累计销量：<s>93</s><br />
+							<a href="#">更多优惠&gt;</a>
+						</div>
+					</div>
+					<div class="buy">
+						客服：&nbsp;&nbsp;<a href="#"><img src="image/xq5.png"/></a><br />
+						颜色：&nbsp;&nbsp;<a href="#"><img src="image/xq6.png" class="yanse"/></a><br />
+						尺码：&nbsp;
+						<ul>
+							<li>XS</li>
+							<li>S</li>
+							<li>M</li>
+							<li>L</li>
+							<li>XL</li>
+						</ul><br />
+						<div id="num">
+							数量：&nbsp;&nbsp;<span class="reduce">-</span><span class="value">1</span><span class="plus">+</span>&nbsp;库存1372件
+						</div>
+						<div class="shop">
+							<a href="#">加入购物车</a>
+							<a href="#" class="mai">立即购买</a>
+						</div>
+						<div class="collect">
+							<a href="#"><img src="image/xq7.png"/></a>
+							<a href="#"><img src="image/xq8.png"/></a>
+							<a href="#">举报</a>
+						</div><br /><br /><br />
+						商品特色：<img src="image/xq9.png"/><br /><br />
+						服务承诺:<img src="image/xq10.png"/><br /><br />
+						支付方式：<img src="image/xq11.png" />
+					</div>
+				</div>
+				<div class="der r">
+					<h3>-热卖推荐-</h3>
+					<a href="#">
+						<img src="image/xq2.png"/>
+						￥79
+					</a>
+					<a href="#">
+						<img src="image/xq3.png"/>
+						￥79
+					</a>
+					<a href="#">
+						<img src="image/xq4.png"/>
+						￥79
+					</a>
+				</div>
+			</div>
+			<div class="minute">
+				<div class="min-l l">
+					<div class="shoucang">
+						<h3><a href="#">G家自制<img src="image/xq12.png"/></a></h3>
+						<h4>
+							<a href="#">收藏店铺</a>
+							<a href="#">进入店铺</a>
+						</h4>
+						<div class="ss">
+							<input type="text" id="txt" value="" />
+							<input type="button" id="btn" value="店内搜索" />
+						</div>
+						<img src="image/xq13.png" class="xq"/>
+					</div>
+					<div class="fenlei">
+						<h3>本店分类</h3>
+						<a href="#"><img src="image/youjian.png"/>&nbsp;全部商品</a>
+						<a href="#"><img src="image/youjian.png"/>&nbsp;2017新款</a>
+						<a href="#"><img src="image/youjian.png"/>&nbsp;春秋款</a>
+						<a href="#"><img src="image/youjian.png"/>&nbsp;夏季</a>
+						<a href="#"><img src="image/youjian.png"/>&nbsp;短裤</a>
+						<a href="#"><img src="image/youjian.png"/>&nbsp;裙子</a>
+						<a href="#"><img src="image/youjian.png"/>&nbsp;春秋款</a>
+						<a href="#"><img src="image/youjian.png"/>&nbsp;短裤</a>
+						<a href="#"><img src="image/youjian.png"/>&nbsp;裙子</a>
+						<a href="#"><img src="image/youjian.png"/>&nbsp;宽松裤子</a>
+						<a href="#"><img src="image/youjian.png"/>&nbsp;紧身小脚裤</a>
+						<a href="#"><img src="image/youjian.png"/>&nbsp;阔腿裤</a>
+						<a href="#"><img src="image/youjian.png"/>&nbsp;背带裤</a>
+						<a href="#"><img src="image/youjian.png"/>&nbsp;九分裤</a>
+					</div>
+					<div class="kankan">
+						<h3>本店分类</h3>
+						<ul>
+							<li><img src="image/xqt1.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+							<li><img src="image/xqt2.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+							<li><img src="image/xqt1.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+							<li><img src="image/xqt2.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+							<li><img src="image/xqt1.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+							<li><img src="image/xqt2.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+							<li><img src="image/xqt1.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+							<li><img src="image/xqt2.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+							<li><img src="image/xqt1.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+							<li><img src="image/xqt2.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						</ul>
+					</div>
+				</div>
+				<div class="min-r r">
+					<ul class="ul">
+						<li class="active">商品相情</li>
+						<li>累计评价<span>6554</span></li>
+						<li>本店同类商品</li>
+					</ul>
+					<h3>韩国版型  减龄背带裙  全棉面料 舒适亲肤  透气</h3>
+					<h4>产品参数</h4>
+					<ul class="ul1">
+						<li>开叉：无开叉</li>
+						<li>腰形：中腰</li>
+						<li>裙形：背带裙</li>
+						<li>材质：牛仔布</li>
+						<li>颜色：深蓝色，牛仔蓝</li>
+						<li>袖长：无袖</li>
+						<li>组合形式：单件</li>
+						<li>袖形：其他</li>
+						<li>风格：复古</li>
+						<li>裙长:短裙</li>
+						<li>版型：A形</li>
+						<li>摆型：常规</li>
+						<li>元素：金属扣，纯色，水洗</li>
+						<li>衣门襟：其他</li>
+						<li>领型：其他</li>
+						<li>图案：纯色</li>
+						<li>季节：夏季</li>
+					</ul>
+					<h4>穿着效果</h4>
+					<h3>模特身高168，体重45KG，试穿S码</h3>
+					<div class="photo">
+						<img src="image/xq14.png"/><br />
+						<b>*此说明仅当价格出现比较时有效</b>
+						<img src="image/xq15.png"/>
+						<img src="image/xq16.png"/>
+						<img src="image/xq17.png"/>
+					</div>
+					<h4>品牌介绍</h4>
+					<h3>G家自制-韩国流行，随时知道。专注韩版高品质女式牛仔裤，G家所有宝贝自产自销，专注于每个做工环节，拥有强大的工厂后盾，保证及时供货，所有图片实拍，MM们请放心购买，品质保证</h3>
+					<h4>服务说明</h4>
+					<h3>购买须知：关于发货:默认中通快递、加运费发顺丰和ems，不发其他快递，港澳台只发顺丰到付。每天下午五点截止下单，五点后的订单第二天发货。2、售后：退换前提必须是全新的未穿过改过的，吊牌配件齐全不影响二次销售的。3、本店产品图片为实物拍摄，并由专业设计师根据产品校正图片颜色，但由于光线、角度、显示器对比角度不同，会有些许色素存在。4、由于许多姑娘不方便自己开扣眼，也容易剪坏，我们的裤子就在出厂前统一开好了扣眼的哦~</h3>
+					<h4>尺码建议</h4>
+					<img src="image/xq18.png" class="chima"/>
+					<h4>尺码说明</h4>
+					<img src="image/xq19.png" class="chima"/>
+					<h4>本店同类商品</h4>
+					<ul class="ul2">
+						<li><img src="image/xqt1.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						<li><img src="image/xqt2.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						<li><img src="image/xqt1.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						<li><img src="image/xqt2.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						<li><img src="image/xqt1.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						<li><img src="image/xqt2.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						<li><img src="image/xqt1.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						<li><img src="image/xqt2.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						<li><img src="image/xqt1.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						<li><img src="image/xqt2.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						<li><img src="image/xqt2.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						<li><img src="image/xqt2.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						<li><img src="image/xqt2.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						<li><img src="image/xqt2.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						<li><img src="image/xqt1.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						<li><img src="image/xqt2.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						<li><img src="image/xqt1.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						<li><img src="image/xqt2.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						<li><img src="image/xqt1.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+						<li><img src="image/xqt2.png"/><br />春秋韩国bf风显瘦裤子...<br />￥79.00</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!------------------------------------------------------------------------------main结束-->
+		<footer class="margin">
+			<div class="foo-t">
+				<ul>
+					<li>
+						-新手帮助-<br />
+						<a href="#">常见问题</a>
+						<a href="#">自助服务</a><br />
+						<a href="#">联系客服</a>
+						<a href="#">意见反馈</a>
+					</li>
+					<li>
+						-权益保障-<br />
+						<a href="#">全国包邮</a>
+						<a href="#">7天无理由退货</a><br />
+						<a href="#">退货运费补贴</a>
+						<a href="#">限时发货</a>
+					</li>
+					<li>
+						-支付方式-<br />
+						<a href="#">微信</a>
+						<a href="#">支付宝</a><br />
+						<a href="#">白富美支付</a>
+						<a href="#">蚂蚁花呗支付</a>
+					</li>
+					<li>
+						-移动客户端下载-<br />
+						<a href="#">蘑菇街</a>
+						<a href="#">美丽说</a>
+						<a href="#">wuni引力</a>
+					</li>
+				</ul>
+			</div>
+			<div class="foo-b">
+				<a href="#">关于我们</a>
+				<a href="#">招聘信息</a>
+				<a href="#">联系我们</a>
+				<a href="#">商家入驻</a>
+				<a href="#">商家后台</a>
+				<a href="#">蘑菇商学院</a>
+				<a href="#">商家社区</a>
+				<span>@2017 Mogujie.com 杭州卷瓜网络有限公司  </span><br />
+				<span>营业执照注册号：330106000129004 | 网络文化经营许可证：浙网文(2016)0349-219号 | 增值电信业务经营许可证：浙B2-20110349 | 安全责任书 | 浙公网安备33010602002329号 |</span>
+			</div>
+		</footer>
+		<section id="fixed">
+			<a href="shoppingCart.html">
+				<i class="integrate i7"></i><br /><br />
+				购<br />物<br />车
+			</a>
+			<a href="#">
+				<i class="integrate i8"></i><br /><br />
+				优<br />惠<br />劵
+			</a>
+			<a href="#">
+				<i class="integrate i9"></i><br /><br />
+				钱<br />包
+			</a>
+			<a href="#">
+				<i class="integrate i10"></i><br /><br />
+				足<br />迹
+			</a>
+			<div id="backTop">
+				<i class="integrate i11"></i><br /><br />
+			</div>
+		</section>
+	</body>
+</html>

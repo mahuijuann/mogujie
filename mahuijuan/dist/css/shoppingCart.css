@@ -1,0 +1,105 @@
+*{padding: 0;margin: 0;}
+
+body{background: #f4f4f4;}
+
+.leftShift{position: absolute;right: 0;bottom: 0;}
+.topShift{position: absolute;right: 0;bottom: 0;}
+
+.rotate{transition:.5s all;}
+.rotate:hover{transform:perspective(400px) rotateY(-360deg);}
+
+.margin{width: 1201px; margin: 0 auto;}
+
+.integrate{background:url(../image/integrate.png) no-repeat;vertical-align:middle;display:inline-block;}
+
+.i1{background-position:-4px -538px;width:12px;height:12px;}
+.i2{background-position:-4px -428px;width:17px;height:16px;}
+.i3{background-position:-4px -348px;width:7px;height:7px;}
+.i4{background-position:-4px -573px;width:20px;height:20px;}
+.i5{background-position:-4px -3px;width:150px;height:50px;}
+.i6{ background-position:-57px -229px;width:10px;height:4px;}
+.i7{ background-position:-273px -136px;width:18px;height:18px;}
+.i8{ background-position:-273px -167px;width:18px;height:18px;}
+.i9{ background-position:-273px -227px;width:18px;height:15px;}
+.i10{ background-position:-273px -196px;width:18px;height:20px;}
+.i11{ background-position:-273px -287px;width:18px;height:20px;}
+
+
+header{border-bottom: 1px solid #DDDDDD;}
+header #register{height: 31px; background: #f2f2f2;}
+header #register .register-l{height: 31px; width: 120px;margin-left:50px;}
+header #register .register-l a{font: 12px/30px "";color: #333;}
+header #register .register-l a img{margin-top: -6px;}
+header #register .register-r{width: 510px;height:31px; margin-right:40px;}
+header #register .register-r span{padding: 0 5px;font: 12px/30px "";color: #333333;}
+header #register .register-r span a{margin-left: 3px;}
+header #register .register-r .erect{color: #ccc;}
+header #register .register-r #trolley{font: 16px/50px "";border-radius:5px ;margin-left: 170px; padding-left: 5px; width: 140px; height: 50px;background: #f2f2f2; display: none; position: absolute;top: 32px;}
+header #register .register-r #serve1{font: 16px/30px "";border-radius:2px ;margin-left: 310px;text-align: center; width: 80px; height: 100px;background: #f2f2f2; display: none; position: absolute;top: 32px;}
+header #register .register-r #manage{font: 16px/30px "";border-radius:2px ;margin-left: 420px;text-align: center; width: 80px; height: 120px;background: #f2f2f2; display: none; position: absolute;top: 32px;}
+header #log{height: 90px; background: #fff;}
+header #log .log-l{width:489px;}
+header #log .log-c{width: 500px;margin-left: 180px;    height: 60px;margin-top: 20px;}
+header #log .log-c input{width:200px;border: 1px solid #ef2f23;float: left;height: 32px;padding-left: 5px;}
+header #log .log-c input.search{width: 50px; margin-right: 10px; color:#fff; float: left;width: 100px;height: 32px;background: #ef2f23;cursor: pointer;}
+header #log1{height: 116px;}
+
+nav{height: 72px;border-bottom: 1px solid #DDDDDD;}
+
+#Goods{height: 1800px;background: #FFFFFF;}
+#Goods .goods1{height: 100px;padding-top: 20px;padding-left: 30px;}
+#Goods .goods1 ul{height: 70px;}
+#Goods .goods1 ul li{height: 48px;float: left;padding:  0 20px;font:400 24px/34px "";color: #666666;padding-top: 20px;}
+#Goods .goods1 ul li.li1{color: #FF0077;border-bottom: 2px solid #FF0077;}
+#Goods .goods1 .kind{width: 1178px;height: 48px;border: 1px solid #DDDDDD;line-height: 48px;padding-left: 20px;background: #F6F6F6;font-size: 12px;color: #666666;}
+#Goods .goods1 .kind span{cursor: pointer;}
+#Goods .goods1 .kind .s1{margin-left: 430px;}
+#Goods .goods1 .kind .s2{margin-left: 130px;}
+#Goods .goods1 .kind .s3{margin-left: 130px;}
+#Goods .goods1 .kind .s4{margin-left: 120px;}
+#Goods .goods1 .kind .s5{margin-left: 50px;}
+
+#Goods .goods1 .GOODS ul{padding-top: 60px;}
+#Goods .goods1 .GOODS ul li{width: 1178px;height: 109px;border: 1px solid #DDDDDD;margin-top: 20px;}
+#Goods .goods1 .GOODS ul li input{float: left;}
+#Goods .goods1 .GOODS ul li .G1{width: 78px;height: 78px;border: 1px solid #DDDDDD;float: left;margin-left: 40px;}
+#Goods .goods1 .GOODS ul li .G1 img{display: block;width: 78px;height: 78px;}
+#Goods .goods1 .GOODS ul li .G2{margin-left: 10px;float: left;font: 14px/24px "";color: #000;width: 293px;}
+#Goods .goods1 .GOODS ul li .G3{width: 90px;height: 78px;float: left;font: 12px/24px "";color: #666;margin-left: 50px;}
+#Goods .goods1 .GOODS ul li .G4{width: 60px;height: 78px;float: left;font:600 14px/24px "";color: #666;margin-left: 100px;}
+#Goods .goods1 .GOODS ul li .G5{width: 110px;height: 50px;float: left;margin-left: 100px;}
+#Goods .goods1 .GOODS ul li .G5 span{display: inline-block;width: 22px;height: 22px;border: 1px solid #DDDDDD;text-align: center;font: 12px/22px "";}
+#Goods .goods1 .GOODS ul li .G5 .value{width: 44px;}
+#Goods .goods1 .GOODS ul li .G5 .plus,#Goods .goods1 .GOODS ul li .G5 .reduce{cursor: pointer;}
+#Goods .goods1 .GOODS ul li .G6{margin-left: 60px;float: left;font:600 16px/24px "";color: #FF0077;width: 50px;}
+#Goods .goods1 .GOODS ul li .G7{width: 40px;height: 78px;float: left;font: 12px/24px "";color: #666;margin-left: 70px;}
+
+#Goods .goods1 .over{width: 1178px;height: 48px;border: 1px solid #DDDDDD;margin-top: 0px;padding-left: 20px;line-height: 48px;background: url(../image/gwc-2.png) no-repeat right;}
+#Goods .goods1 .over a{margin-left: 20px;}
+
+
+
+
+footer .foo-t{height: 153px;border-bottom: 2px solid #ff5777;}
+footer .foo-t ul li{width: 255px;height: 123px;float: left;text-align: center;padding-top: 30px;font:600 16px/30px "" ;color: #333333;}
+footer .foo-t ul li a{font: 400 12px/18px "";color: #777;}
+footer .foo-c{height: 64px;border-bottom: 1px solid #666666;}
+footer .foo-c a{font: 12px/30px "";color: #333333;padding: 0 5px;}
+footer .foo-c span{font: 12px/30px "";color: #666666;padding: 0 2px;}
+footer .foo-b{height: 116px;padding-top: 10px;}
+footer .foo-b a{font: 12px/30px "";color: #333333;padding-right: 20px;}
+footer .foo-b span{font: 12px/24px "";color: #666;padding-right: 20px;}
+
+
+#fixed{width: 30px;height: 594px; background: #202020;position: fixed;right: 0;top: 0;padding-top: 80px;}
+#fixed a{display: inline-block;text-align: center;width: 30px;border-bottom: 1px solid #919191;color: white;padding: 10px 0;}
+#fixed a:hover{background: #ef2f23;}
+#fixed #backTop{margin-top: 180px;width: 30px;height: 30px;text-align: center;display: none;cursor: pointer;}
+
+
+
+
+
+
+
+

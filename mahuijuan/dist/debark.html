@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/debark.css"/>
+		<script type="text/javascript" src="js/TabSwtich.js"></script>
+		<script type="text/javascript">
+	    	function checkName(){
+		    	var userName = document.getElementById("tel").value;
+				var userSpan = document.getElementById("userid");
+				var reg = /^[a-z]\w{5,8}$/i;
+				if(reg.test(userName)){
+					userSpan.innerHTML="格式正确".fontcolor("green");
+            		return true;	
+				}else{
+            		userSpan.innerHTML="格式错误,请重新填写".fontcolor("red");
+					return false;
+				} 
+			}
+	    	function checkPsd(){
+	    		var passwords=document.getElementById("psd").value;
+	    		var psdSpan = document.getElementById("psdid");
+	    		var reg = /^\w{6,9}$/i;
+	    		if(reg.test(passwords)){
+					psdSpan.innerHTML="格式正确".fontcolor("green");
+            		return true;	
+				}else if(passwords==""){
+					psdSpan.innerHTML="密码不能为空".fontcolor("red");	
+					return false;
+				}else{
+            		psdSpan.innerHTML="格式错误,请重新填写".fontcolor("red");
+					return false;
+				} 
+	    	}
+		</script>
+	</head>
+	<body>
+		<header>
+			<div id="register">
+				<img src="image/reg-1.png"/>
+			</div>
+		</header>
+		<!--------------------------------------------------------------------------------------header结束------->
+		<section id="banner">
+			<div class="reg">
+			</div>
+			<div id="op">
+				<ul>
+					<li class="li1">普通登录</li>
+					<li class="li2">手机无密码登录</li>
+				</ul>
+				<div style = "display: block" class="div">
+					<input type="text" name="" id="tel" value="" placeholder="用户名/邮箱/手机号" onblur="checkName()"/><br />
+					<span id="userid"><i>*</i>请输入以字母开头的数字和大小写字母组成的6-9位用户名</span>
+					<input type="password" name="psd" id="psd" value="" onblur="checkPsd()"/><br />
+					<span id="psdid"><i>*</i>请输入数字和大小写字母组成的6-9位密码</span>
+					<input type="button" id="btn" value="登录" />
+					<div class="aa">
+						<a href="#"><img src="image/reg-2.png"/>QQ登录</a>
+						<a href="#"><img src="image/reg-3.png"/>微信登录</a>
+						<a href="#"><img src="image/reg-4.png"/>微博登录</a>
+					</div>
+					<div class="bb">
+						<a href="#" class="a1">免费注册</a>
+						<a href="#">忘记密码</a>
+					</div>
+				</div>
+			</div>
+
+			</div>
+		</section>
+		<!--------------------------------------------------------------nav结束--------------------->
+		<footer class="">
+			<div class="margin">
+				<div class="foo-t">
+				<ul>
+					<li>
+						-新手帮助-<br />
+						<a href="#">常见问题</a>
+						<a href="#">自助服务</a><br />
+						<a href="#">联系客服</a>
+						<a href="#">意见反馈</a>
+					</li>
+					<li>
+						-权益保障-<br />
+						<a href="#">全国包邮</a>
+						<a href="#">7天无理由退货</a><br />
+						<a href="#">退货运费补贴</a>
+						<a href="#">限时发货</a>
+					</li>
+					<li>
+						-支付方式-<br />
+						<a href="#">微信</a>
+						<a href="#">支付宝</a><br />
+						<a href="#">白富美支付</a>
+						<a href="#">蚂蚁花呗支付</a>
+					</li>
+					<li>
+						-移动客户端下载-<br />
+						<a href="#">蘑菇街</a>
+						<a href="#">美丽说</a>
+						<a href="#">wuni引力</a>
+					</li>
+				</ul>
+			</div>
+			<div class="foo-c">
+				<a href="#">美丽说</a><span>|</span>
+				<a href="#">蘑菇街游戏</a><span>|</span>
+				<a href="#">淘粉吧</a><span>|</span>
+				<a href="#">穿衣搭配</a><span>|</span>
+				<a href="#">秋季女装新款</a><span>|</span>
+				<a href="#">秋季连衣裙</a><span>|</span>
+				<a href="#">QQ钱包</a><span>|</span>
+				<a href="#">时尚品牌网</a><span>|</span>
+				<a href="#">装修</a><span>|</span>
+				<a href="#">背带裤搭配</a><span>|</span>
+				<a href="#">衣连网</a><span>|</span>
+				<a href="#">慧聪网</a><span>|</span>
+				<a href="#">衬衫搭配</a><span>|</span>
+				<a href="#">QQ钱包</a><span>|</span>
+				<a href="#">时尚品牌网</a><span>|</span>
+				<a href="#">装修</a><span>|</span>
+				<a href="#">背带裤搭配</a><span>|</span>
+				<a href="#">衣连网</a><span>|</span>
+				<a href="#">慧聪网</a><span>|</span>
+				<a href="#">衬衫搭配</a><span>|</span>
+			</div>
+			<div class="foo-b">
+				<a href="#">关于我们</a>
+				<a href="#">招聘信息</a>
+				<a href="#">联系我们</a>
+				<a href="#">商家入驻</a>
+				<a href="#">商家后台</a>
+				<a href="#">蘑菇商学院</a>
+				<a href="#">商家社区</a>
+				<span>@2017 Mogujie.com 杭州卷瓜网络有限公司  </span><br />
+				<span>营业执照注册号：330106000129004 | 网络文化经营许可证：浙网文(2016)0349-219号 | 增值电信业务经营许可证：浙B2-20110349 | 安全责任书 | 浙公网安备33010602002329号 |</span>
+			</div>
+			</div>
+		</footer>	
+	</body>
+</html>
